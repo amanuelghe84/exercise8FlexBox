@@ -8,29 +8,33 @@ box-sizing: border-box;
 .content{
         display: flex;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 30px;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(173, 180, 178);
+    background-color: rgb(185, 194, 191);
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(71, 68, 68);
+    background-color: rgb(102, 94, 94);
     padding: 15px;
 }
-.navbar a{
+.navbar{
     color: white;
     text-decoration: none;
     padding: 1.5rem;
 }
 .nav-links{
+    justify-content: center;
     list-style: none;
     display: flex;
+    flex-direction: row;
+
+    background-color: rgb(109, 117, 117);
 }
 
 .nav-links li {
@@ -53,6 +57,6 @@ body{
         position: absolute;
         top: 60px;
         left: 0px;
-        background-color: rgb(81, 76, 85);
+    
     }
 }
